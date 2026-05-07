@@ -1,0 +1,16 @@
+{
+  "name": "@origin/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network baseSepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^20.14.8",
+    "hardhat": "^2.22.5",
+    "typescript": "^5.4.5"
+  }
+}
